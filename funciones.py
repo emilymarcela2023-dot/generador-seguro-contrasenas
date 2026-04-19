@@ -64,7 +64,7 @@ def guardar_contrasena(contrasena, sitio):
     with open("contraseñas.json", "w") as archivo:
         json.dump(lista, archivo, indent=4)
     
-    print("✅ Contraseña guardada correctamente")
+    print(" Contraseña guardada correctamente")
 
 
 # Función para ver las contraseñas guardadas
