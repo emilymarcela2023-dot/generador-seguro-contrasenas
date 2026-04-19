@@ -43,7 +43,7 @@ def analizar_fortaleza(contrasena):
         return "Débil "
 
 
-# Función para guardar contraseñas (Unidad 4 - Diccionarios y Listas)
+# Función para guardar contraseñas 
 def guardar_contrasena(contrasena, sitio):
     """Guarda la contraseña en un archivo"""
     try:
